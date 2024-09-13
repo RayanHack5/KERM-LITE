@@ -24,8 +24,8 @@
 
 1.𝐆𝐄𝐓 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐈𝐃 𝐅𝐑𝐎𝐌 𝐒𝐄𝐑𝐕𝐄𝐑
 
-<a href="https://bug-session-kerm-dnls.onrender.com/pair"><img src="https://img.shields.io/badge/PAIR_CODE-blue" alt="Click Here to Get Pair-Code" width="110"></a>   
-
+<a href="https://lite-session.onrender.com/code"><img src="https://img.shields.io/badge/PAIR_CODE-yellow" alt="Click Here to Get Pair-Code" width="110"></a>   
+<a href="https://lite-session.onrender.com/qr"><img src="https://img.shields.io/badge/QR CODE-yellow" alt="Click Here to Get QR-Code" width="90"></a>
 ## How To Deploy On Panel.
  [![YOUTUBE](https://img.shields.io/badge/HOW_TO_DEPLOY-red?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/T77rQM7Nk5k?si=gg-LJxS6vC6kBEpJ)
 
@@ -49,7 +49,13 @@
 
 4. Now Deploy
     <br>
-<a href='https://app.koyeb.com/services/deploy?type=git&repository=https://github.com/Kgtech-cmr/KERM-LITE&branch=main&name=xbotmd&builder=dockerfile&env[SESSION_ID]=%20&env[WORK_TYPE]=private&env[HANDLER]=.&env[BOT_INFO]=KERM-LITE;GIFF%20RAYAN;https://i.imgur.com/QH7T7u9.jpeg&env[SUDO]=237656520674,237650564445&env[STICKER_DATA]=KG TECH&env[DATABASE_URL]' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=koyeb'/></a>
+<a href='https://app.koyeb.com/services/deploy?type=docker&image=docker.io/kgkerm/kerm-lite&name=kerm-lite&env[SESSION_ID]=&env[BOT_INFO]=Kɢᴛᴇᴄʜ;Kᴇʀᴍ-ʟɪᴛᴇ⚡️&env[SUDO]=237656520674&env[ANTILINK]=true&env[PORT]=8000&env[KOYEB_API_KEY]=&service_type=worker' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=koyeb'/></a>
+
+#### DEPLOY TO RENDER 
+
+1. Now Deploy
+    <br>
+<a href='https://render.com/deploy?repo=https://github.com/Kgtech-cmr/KERM-LITE&env=SESSION_ID,BOT_INFO' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=render&logoColor=white'/>
 
 #### DEPLOY ON RAILWAY
 
@@ -58,16 +64,9 @@
 <a href='https://railway.app' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=railway'/>
 2. Now Deploy
     <br>
-<a href='https://railway.app' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=railway'/></a>
+<a href='https://railway.app/new/template?template=https://github.com/Kgtech-cmr/KERM-LITE&envs=SESSION_ID,BOT_INFO' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=railway'/></a>
 
-#### DEPLOY ON MOGENIUS
-
-1. If You don't have a account in Replit. Create a account.
-    <br>
-<a href='https://mogenius.com' target="_blank"><img alt='Replit' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=genius'/></a>
-2. Now Deploy
-    <br>
-<a href='https://mogenius.com' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=genius'/></a>
+**[Panel](https://github.com/Kgtech-cmr/KERM-LITE/releases/)**
 
 ### CONTACT OWNER
 
