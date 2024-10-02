@@ -121,7 +121,7 @@ memeCommands.forEach(({ pattern, image, x, y, maxWidth, maxLines }) => {
          const imagePath = getAbsolutePath(image);
          const tempImage = getAbsolutePath(`temp/${pattern}.png`);
          const generatedImage = await generateImageWithText(imagePath, tempImage, ` ${match}`, x, y, maxWidth, maxLines, "35");
-         const capMsg = `>BRAND PRODUCT OF ☞⌜ KG TECH⌝☜`;
+         const capMsg = `> BRAND PRODUCT OF ☞⌜ KG TECH⌝☜`;
          await sleep(1500);
          const buff = await buffThumb(generatedImage);
          await message.send(buff, { caption: capMsg });
@@ -131,14 +131,14 @@ memeCommands.forEach(({ pattern, image, x, y, maxWidth, maxLines }) => {
 
 Module(
    {
-      pattern: "ep1",
+      pattern: "glossy",
       fromMe: mode,
       desc: "Logo Maker",
-      type: "eps",
+      type: "logo",
    },
    async (m, match) => {
-      if (!match) return await m.sendReply("_Give Me Text_");
-      await m.sendReply("_Creating Design_");
+      if (!match) return await m.sendReply("_Give Me Text Man_");
+      await m.sendReply("_Creating Design🪄_");
       const logo = new Ephoto360API();
       const img = await logo.glossysilver(match);
       return m.send(img, {
@@ -146,7 +146,7 @@ Module(
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-               newsletterJid: "120363295657486372@g.us",
+               newsletterJid: "120363321386877609@newsletter",
                newsletterName: "ɢʟᴏssʏ sɪʟᴠᴇʀ",
             },
          },
@@ -156,14 +156,14 @@ Module(
 
 Module(
    {
-      pattern: "ep2",
+      pattern: "write",
       fromMe: mode,
       desc: "Write Text",
-      type: "eps",
+      type: "logo",
    },
    async (m, match) => {
-      if (!match) return await m.sendReply("_Give Me Text_");
-      await m.sendReply("_Creating Design_");
+      if (!match) return await m.sendReply("_Give Me Text Man_");
+      await m.sendReply("_Creating Design🪄_");
       const logo = new Ephoto360API();
       const img = await logo.writetext(match);
       return m.send(img, {
@@ -171,7 +171,7 @@ Module(
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-               newsletterJid: "120363295657486372@g.us",
+               newsletterJid: "120363321386877609@newsletter",
                newsletterName: "ᴡʀɪᴛᴇ ᴛᴇxᴛ",
             },
          },
@@ -181,14 +181,14 @@ Module(
 
 Module(
    {
-      pattern: "ep3",
+      pattern: "blackpink",
       fromMe: mode,
       desc: "Blackpink Logo",
-      type: "eps",
+      type: "logo",
    },
    async (m, match) => {
-      if (!match) return await m.sendReply("_Give Me Text_");
-      await m.sendReply("_Creating Design_");
+      if (!match) return await m.sendReply("_Give Me Text Man_");
+      await m.sendReply("_Creating Design🪄_");
       const logo = new Ephoto360API();
       const img = await logo.blackpinklogo(match);
       return m.send(img, {
@@ -196,7 +196,7 @@ Module(
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-               newsletterJid: "120363295657486372@g.us",
+               newsletterJid: "120363321386877609@newsletter",
                newsletterName: "ʙʟᴀᴄᴋᴘɪɴᴋ ʟᴏɢᴏ",
             },
          },
@@ -206,14 +206,14 @@ Module(
 
 Module(
    {
-      pattern: "ep4",
+      pattern: "glitch",
       fromMe: mode,
       desc: "Glitch Text",
-      type: "eps",
+      type: "logo",
    },
    async (m, match) => {
-      if (!match) return await m.sendReply("_Give Me Text_");
-      await m.sendReply("_Creating Design_");
+      if (!match) return await m.sendReply("_Give Me Text Man_");
+      await m.sendReply("_Creating Design🪄_");
       const logo = new Ephoto360API();
       const img = await logo.glitchtext(match);
       return m.send(img, {
@@ -221,7 +221,7 @@ Module(
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-               newsletterJid: "120363295657486372@g.us",
+               newsletterJid: "120363321386877609@newsletter",
                newsletterName: "ɢʟɪᴛᴄʜ ᴛᴇxᴛ",
             },
          },
@@ -231,14 +231,14 @@ Module(
 
 Module(
    {
-      pattern: "ep5",
+      pattern: "glow",
       fromMe: mode,
       desc: "Advanced Glow",
-      type: "eps",
+      type: "logo",
    },
    async (m, match) => {
-      if (!match) return await m.sendReply("_Give Me Text_");
-      await m.sendReply("_Creating Design_");
+      if (!match) return await m.sendReply("_Give Me Text Man_");
+      await m.sendReply("_Creating Design🪄_");
       const logo = new Ephoto360API();
       const img = await logo.advancedglow(match);
       return m.send(img, {
@@ -246,7 +246,7 @@ Module(
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-               newsletterJid: "120363295657486372@g.us",
+               newsletterJid: "120363321386877609@newsletter",
                newsletterName: "ᴀᴅᴠᴀɴᴄᴇᴅ ɢʟᴏᴡ",
             },
          },
@@ -256,14 +256,14 @@ Module(
 
 Module(
    {
-      pattern: "ep6",
+      pattern: "typography",
       fromMe: mode,
       desc: "Typography Text",
-      type: "eps",
+      type: "logo",
    },
    async (m, match) => {
-      if (!match) return await m.sendReply("_Give Me Text_");
-      await m.sendReply("_Creating Design_");
+      if (!match) return await m.sendReply("_Give Me Text Man_");
+      await m.sendReply("_Creating Design🪄_");
       const logo = new Ephoto360API();
       const img = await logo.typographytext(match);
       return m.send(img, {
@@ -271,7 +271,7 @@ Module(
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-               newsletterJid: "120363295657486372@g.us",
+               newsletterJid: "120363321386877609@newsletter",
                newsletterName: "ᴛʏᴘᴏɢʀᴀᴘʜʏ ᴛᴇxᴛ",
             },
          },
@@ -281,14 +281,14 @@ Module(
 
 Module(
    {
-      pattern: "ep7",
+      pattern: "pixel",
       fromMe: mode,
       desc: "Pixel Glitch",
-      type: "eps",
+      type: "logo",
    },
    async (m, match) => {
-      if (!match) return await m.sendReply("_Give Me Text_");
-      await m.sendReply("_Creating Design_");
+      if (!match) return await m.sendReply("_Give Me Text Man_");
+      await m.sendReply("_Creating Design🪄_");
       const logo = new Ephoto360API();
       const img = await logo.pixelglitch(match);
       return m.send(img, {
@@ -296,7 +296,7 @@ Module(
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-               newsletterJid: "120363295657486372@g.us",
+               newsletterJid: "120363321386877609@newsletter",
                newsletterName: "ᴘɪxᴇʟ ɢʟɪᴛᴄʜ",
             },
          },
@@ -306,14 +306,14 @@ Module(
 
 Module(
    {
-      pattern: "ep8",
+      pattern: "neon",
       fromMe: mode,
       desc: "Neon Glitch",
-      type: "eps",
+      type: "logo",
    },
    async (m, match) => {
-      if (!match) return await m.sendReply("_Give Me Text_");
-      await m.sendReply("_Creating Design_");
+      if (!match) return await m.sendReply("_Give Me Text Man_");
+      await m.sendReply("_Creating Design🪄_");
       const logo = new Ephoto360API();
       const img = await logo.neonglitch(match);
       return m.send(img, {
@@ -321,7 +321,7 @@ Module(
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-               newsletterJid: "120363295657486372@g.us",
+               newsletterJid: "120363321386877609@newsletter",
                newsletterName: "ɴᴇᴏɴ ɢʟɪᴛᴄʜ",
             },
          },
@@ -331,14 +331,14 @@ Module(
 
 Module(
    {
-      pattern: "ep9",
+      pattern: "flag",
       fromMe: mode,
       desc: "Nigerian Flag",
-      type: "eps",
+      type: "logo",
    },
    async (m, match) => {
-      if (!match) return await m.sendReply("_Give Me Text_");
-      await m.sendReply("_Creating Design_");
+      if (!match) return await m.sendReply("_Give Me Text Man_");
+      await m.sendReply("_Creating Design🪄_");
       const logo = new Ephoto360API();
       const img = await logo.nigerianflag(match);
       return m.send(img, {
@@ -346,7 +346,7 @@ Module(
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-               newsletterJid: "120363295657486372@g.us",
+               newsletterJid: "120363321386877609@newsletter",
                newsletterName: "ɴɪɢᴇʀɪᴀɴ ꜰʟᴀɢ",
             },
          },
@@ -356,14 +356,14 @@ Module(
 
 Module(
    {
-      pattern: "ep10",
+      pattern: "american",
       fromMe: mode,
       desc: "American Flag",
-      type: "eps",
+      type: "logo",
    },
    async (m, match) => {
-      if (!match) return await m.sendReply("_Give Me Text_");
-      await m.sendReply("_Creating Design_");
+      if (!match) return await m.sendReply("_Give Me Text Man_");
+      await m.sendReply("_Creating Design🪄_");
       const logo = new Ephoto360API();
       const img = await logo.americanflag(match);
       return m.send(img, {
@@ -371,7 +371,7 @@ Module(
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-               newsletterJid: "120363295657486372@g.us",
+               newsletterJid: "120363321386877609@newsletter",
                newsletterName: "ᴀᴍᴇʀɪᴄᴀɴ ꜰʟᴀɢ",
             },
          },
@@ -381,14 +381,14 @@ Module(
 
 Module(
    {
-      pattern: "ep11",
+      pattern: "deleting",
       fromMe: mode,
       desc: "Deleting Text",
-      type: "eps",
+      type: "logo",
    },
    async (m, match) => {
-      if (!match) return await m.sendReply("_Give Me Text_");
-      await m.sendReply("_Creating Design_");
+      if (!match) return await m.sendReply("_Give Me Text Man_");
+      await m.sendReply("_Creating Design🪄_");
       const logo = new Ephoto360API();
       const img = await logo.deletingtext(match);
       return m.send(img, {
@@ -396,7 +396,7 @@ Module(
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-               newsletterJid: "120363295657486372@g.us",
+               newsletterJid: "120363321386877609@newsletter",
                newsletterName: "ᴅᴇʟᴇᴛɪɴɢ ᴛᴇxᴛ",
             },
          },
@@ -406,14 +406,14 @@ Module(
 
 Module(
    {
-      pattern: "ep12",
+      pattern: "blackpink2",
       fromMe: mode,
       desc: "Blackpink Style",
-      type: "eps",
+      type: "logo",
    },
    async (m, match) => {
-      if (!match) return await m.sendReply("_Give Me Text_");
-      await m.sendReply("_Creating Design_");
+      if (!match) return await m.sendReply("_Give Me Text Man_");
+      await m.sendReply("_Creating Design🪄_");
       const logo = new Ephoto360API();
       const img = await logo.blackpinkstyle(match);
       return m.send(img, {
@@ -421,7 +421,7 @@ Module(
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-               newsletterJid: "120363295657486372@g.us",
+               newsletterJid: "120363321386877609@newsletter",
                newsletterName: "ʙʟᴀᴄᴋᴘɪɴᴋ ꜱᴛʏʟᴇ",
             },
          },
@@ -431,14 +431,14 @@ Module(
 
 Module(
    {
-      pattern: "ep13",
+      pattern: "glowing",
       fromMe: mode,
       desc: "Glowing Text",
-      type: "eps",
+      type: "logo",
    },
    async (m, match) => {
-      if (!match) return await m.sendReply("_Give Me Text_");
-      await m.sendReply("_Creating Design_");
+      if (!match) return await m.sendReply("_Give Me Text Man_");
+      await m.sendReply("_Creating Design🪄_");
       const logo = new Ephoto360API();
       const img = await logo.glowingtext(match);
       return m.send(img, {
@@ -446,7 +446,7 @@ Module(
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-               newsletterJid: "120363295657486372@g.us",
+               newsletterJid: "120363321386877609@newsletter",
                newsletterName: "ɢʟᴏᴡɪɴɢ ᴛᴇxᴛ",
             },
          },
@@ -456,14 +456,14 @@ Module(
 
 Module(
    {
-      pattern: "ep14",
+      pattern: "underwater",
       fromMe: mode,
       desc: "Underwater",
-      type: "eps",
+      type: "logo",
    },
    async (m, match) => {
-      if (!match) return await m.sendReply("_Give Me Text_");
-      await m.sendReply("_Creating Design_");
+      if (!match) return await m.sendReply("_Give Me Text Man_");
+      await m.sendReply("_Creating Design🪄_");
       const logo = new Ephoto360API();
       const img = await logo.underwater(match);
       return m.send(img, {
@@ -471,7 +471,7 @@ Module(
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-               newsletterJid: "120363295657486372@g.us",
+               newsletterJid: "120363321386877609@newsletter",
                newsletterName: "ᴜɴᴅᴇʀᴡᴀᴛᴇʀ",
             },
          },
@@ -481,14 +481,14 @@ Module(
 
 Module(
    {
-      pattern: "ep15",
+      pattern: "logo2",
       fromMe: mode,
       desc: "Logo Maker",
-      type: "eps",
+      type: "logo",
    },
    async (m, match) => {
-      if (!match) return await m.sendReply("_Give Me Text_");
-      await m.sendReply("_Creating Design_");
+      if (!match) return await m.sendReply("_Give Me Text Man_");
+      await m.sendReply("_Creating Design🪄_");
       const logo = new Ephoto360API();
       const img = await logo.logomaker(match);
       return m.send(img, {
@@ -496,7 +496,7 @@ Module(
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-               newsletterJid: "120363295657486372@g.us",
+               newsletterJid: "120363321386877609@newsletter",
                newsletterName: "ʟᴏɢᴏ ᴍᴀᴋᴇʀ",
             },
          },
@@ -506,14 +506,14 @@ Module(
 
 Module(
    {
-      pattern: "ep16",
+      pattern: "cartoon",
       fromMe: mode,
       desc: "Cartoon Style",
-      type: "eps",
+      type: "logo",
    },
    async (m, match) => {
-      if (!match) return await m.sendReply("_Give Me Text_");
-      await m.sendReply("_Creating Design_");
+      if (!match) return await m.sendReply("_Give Me Text Man_");
+      await m.sendReply("_Creating Design🪄_");
       const logo = new Ephoto360API();
       const img = await logo.cartoonstyle(match);
       return m.send(img, {
@@ -521,7 +521,7 @@ Module(
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-               newsletterJid: "120363295657486372@g.us",
+               newsletterJid: "120363321386877609@newsletter",
                newsletterName: "ᴄᴀʀᴛᴏᴏɴ ꜱᴛʏʟᴇ",
             },
          },
@@ -531,14 +531,14 @@ Module(
 
 Module(
    {
-      pattern: "ep17",
+      pattern: "paper",
       fromMe: mode,
       desc: "Paper Cut",
-      type: "eps",
+      type: "logo",
    },
    async (m, match) => {
-      if (!match) return await m.sendReply("_Give Me Text_");
-      await m.sendReply("_Creating Design_");
+      if (!match) return await m.sendReply("_Give Me Text Man_");
+      await m.sendReply("_Creating Design🪄_");
       const logo = new Ephoto360API();
       const img = await logo.papercut(match);
       return m.send(img, {
@@ -546,7 +546,7 @@ Module(
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-               newsletterJid: "120363295657486372@g.us",
+               newsletterJid: "120363321386877609@newsletter",
                newsletterName: "ᴘᴀᴘᴇʀ ᴄᴜᴛ",
             },
          },
@@ -556,14 +556,14 @@ Module(
 
 Module(
    {
-      pattern: "ep18",
+      pattern: "watercolor",
       fromMe: mode,
       desc: "Watercolor",
-      type: "eps",
+      type: "logo",
    },
    async (m, match) => {
-      if (!match) return await m.sendReply("_Give Me Text_");
-      await m.sendReply("_Creating Design_");
+      if (!match) return await m.sendReply("_Give Me Text Man_");
+      await m.sendReply("_Creating Design🪄_");
       const logo = new Ephoto360API();
       const img = await logo.watercolor(match);
       return m.send(img, {
@@ -571,7 +571,7 @@ Module(
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-               newsletterJid: "120363295657486372@g.us",
+               newsletterJid: "120363321386877609@newsletter",
                newsletterName: "ᴡᴀᴛᴇʀᴄᴏʟᴏʀ",
             },
          },
@@ -581,14 +581,14 @@ Module(
 
 Module(
    {
-      pattern: "ep19",
+      pattern: "carmen",
       fromMe: mode,
       desc: "Effect Clouds",
-      type: "eps",
+      type: "logo",
    },
    async (m, match) => {
-      if (!match) return await m.sendReply("_Give Me Text_");
-      await m.sendReply("_Creating Design_");
+      if (!match) return await m.sendReply("_Give Me Text Man_");
+      await m.sendReply("_Creating Design🪄_");
       const logo = new Ephoto360API();
       const img = await logo.effectclouds(match);
       return m.send(img, {
@@ -596,8 +596,8 @@ Module(
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-               newsletterJid: "120363295657486372@g.us",
-               newsletterName: "ᴇꜰꜰᴇᴄᴛ ᴄʟᴏᴜᴅꜱ",
+               newsletterJid: "120363321386877609@newsletter",
+               newsletterName: "ᴄᴀʀᴍᴇɴ ᴄʟᴏᴜᴅꜱ",
             },
          },
       });
@@ -606,14 +606,14 @@ Module(
 
 Module(
    {
-      pattern: "ep20",
+      pattern: "gradient",
       fromMe: mode,
       desc: "Gradient Text",
-      type: "eps",
+      type: "logo",
    },
    async (m, match) => {
-      if (!match) return await m.sendReply("_Give Me Text_");
-      await m.sendReply("_Creating Design_");
+      if (!match) return await m.sendReply("_Give Me Text Man_");
+      await m.sendReply("_Creating Design🪄_");
       const logo = new Ephoto360API();
       const img = await logo.gradienttext(match);
       return m.send(img, {
@@ -621,7 +621,7 @@ Module(
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-               newsletterJid: "120363295657486372@g.us",
+               newsletterJid: "120363321386877609@newsletter",
                newsletterName: "ɢʀᴀᴅɪᴇɴᴛ ᴛᴇxᴛ",
             },
          },
@@ -631,14 +631,14 @@ Module(
 
 Module(
    {
-      pattern: "ep21",
+      pattern: "summer",
       fromMe: mode,
       desc: "Summer Beach",
-      type: "eps",
+      type: "logo",
    },
    async (m, match) => {
-      if (!match) return await m.sendReply("_Give Me Text_");
-      await m.sendReply("_Creating Design_");
+      if (!match) return await m.sendReply("_Give Me Text Man_");
+      await m.sendReply("_Creating Design🪄_");
       const logo = new Ephoto360API();
       const img = await logo.summerbeach(match);
       return m.send(img, {
@@ -646,8 +646,8 @@ Module(
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-               newsletterJid: "120363295657486372@g.us",
-               newsletterName: "ꜱᴜᴍᴍᴇʀ ʙᴇᴀᴄʜ",
+               newsletterJid: "120363321386877609@newsletter",
+               newsletterName: "sᴜᴍᴍᴇʀ ʙᴇᴀᴄʜ",
             },
          },
       });
@@ -656,14 +656,14 @@ Module(
 
 Module(
    {
-      pattern: "ep22",
+      pattern: "luxury",
       fromMe: mode,
       desc: "Luxury Gold",
-      type: "eps",
+      type: "logo",
    },
    async (m, match) => {
-      if (!match) return await m.sendReply("_Give Me Text_");
-      await m.sendReply("_Creating Design_");
+      if (!match) return await m.sendReply("_Give Me Text Man_");
+      await m.sendReply("_Creating Design🪄_");
       const logo = new Ephoto360API();
       const img = await logo.luxurygold(match);
       return m.send(img, {
@@ -671,7 +671,7 @@ Module(
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-               newsletterJid: "120363295657486372@g.us",
+               newsletterJid: "120363321386877609@newsletter",
                newsletterName: "ʟᴜxᴜʀʏ ɢᴏʟᴅ",
             },
          },
@@ -681,14 +681,14 @@ Module(
 
 Module(
    {
-      pattern: "ep23",
+      pattern: "multicolored",
       fromMe: mode,
       desc: "Multicolored",
-      type: "eps",
+      type: "logo",
    },
    async (m, match) => {
-      if (!match) return await m.sendReply("_Give Me Text_");
-      await m.sendReply("_Creating Design_");
+      if (!match) return await m.sendReply("_Give Me Text Man_");
+      await m.sendReply("_Creating Design🪄_");
       const logo = new Ephoto360API();
       const img = await logo.multicolored(match);
       return m.send(img, {
@@ -696,7 +696,7 @@ Module(
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-               newsletterJid: "120363295657486372@g.us",
+               newsletterJid: "120363321386877609@newsletter",
                newsletterName: "ᴍᴜʟᴛɪᴄᴏʟᴏʀᴇᴅ",
             },
          },
@@ -706,14 +706,14 @@ Module(
 
 Module(
    {
-      pattern: "ep24",
+      pattern: "sand",
       fromMe: mode,
       desc: "Sand Summer",
-      type: "eps",
+      type: "logo",
    },
    async (m, match) => {
-      if (!match) return await m.sendReply("_Give Me Text_");
-      await m.sendReply("_Creating Design_");
+      if (!match) return await m.sendReply("_Give Me Text Man_");
+      await m.sendReply("_Creating Design🪄_");
       const logo = new Ephoto360API();
       const img = await logo.sandsummer(match);
       return m.send(img, {
@@ -721,7 +721,7 @@ Module(
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-               newsletterJid: "120363295657486372@g.us",
+               newsletterJid: "120363321386877609@newsletter",
                newsletterName: "ꜱᴀɴᴅ ꜱᴜᴍᴍᴇʀ",
             },
          },
@@ -731,14 +731,14 @@ Module(
 
 Module(
    {
-      pattern: "ep25",
+      pattern: "sandsummer",
       fromMe: mode,
       desc: "Sandsummer",
-      type: "eps",
+      type: "logo",
    },
    async (m, match) => {
-      if (!match) return await m.sendReply("_Give Me Text_");
-      await m.sendReply("_Creating Design_");
+      if (!match) return await m.sendReply("_Give Me Text Man_");
+      await m.sendReply("_Creating Design🪄_");
       const logo = new Ephoto360API();
       const img = await logo.sandsummer(match);
       return m.send(img, {
@@ -746,7 +746,7 @@ Module(
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-               newsletterJid: "120363295657486372@g.us",
+               newsletterJid: "120363321386877609@newsletter",
                newsletterName: "ꜱᴀɴᴅsᴜᴍᴍᴇʀ",
             },
          },
@@ -756,14 +756,14 @@ Module(
 
 Module(
    {
-      pattern: "ep26",
+      pattern: "galaxy",
       fromMe: mode,
       desc: "Galaxy",
-      type: "eps",
+      type: "logo",
    },
    async (m, match) => {
-      if (!match) return await m.sendReply("_Give Me Text_");
-      await m.sendReply("_Creating Design_");
+      if (!match) return await m.sendReply("_Give Me Text Man_");
+      await m.sendReply("_Creating Design🪄_");
       const logo = new Ephoto360API();
       const img = await logo.galaxy(match);
       return m.send(img, {
@@ -771,7 +771,7 @@ Module(
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-               newsletterJid: "120363295657486372@g.us",
+               newsletterJid: "120363321386877609@newsletter",
                newsletterName: "ɢᴀʟᴀxʏ",
             },
          },
@@ -781,14 +781,14 @@ Module(
 
 Module(
    {
-      pattern: "ep27",
+      pattern: "kerm",
       fromMe: mode,
       desc: "Nineteen Seventeen",
-      type: "eps",
+      type: "logo",
    },
    async (m, match) => {
-      if (!match) return await m.sendReply("_Give Me Text_");
-      await m.sendReply("_Creating Design_");
+      if (!match) return await m.sendReply("_Give Me Text Man_");
+      await m.sendReply("_Creating Design🪄_");
       const logo = new Ephoto360API();
       const img = await logo.nineteenseventeen(match);
       return m.send(img, {
@@ -796,8 +796,8 @@ Module(
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-               newsletterJid: "120363295657486372@g.us",
-               newsletterName: "1𝟗𝟏𝟕",
+               newsletterJid: "120363321386877609@newsletter",
+               newsletterName: "ᴋᴇʀᴍ 1𝟗𝟏𝟕",
             },
          },
       });
@@ -806,14 +806,14 @@ Module(
 
 Module(
    {
-      pattern: "ep28",
+      pattern: "fareno",
       fromMe: mode,
       desc: "Making Neon",
-      type: "eps",
+      type: "logo",
    },
    async (m, match) => {
-      if (!match) return await m.sendReply("_Give Me Text_");
-      await m.sendReply("_Creating Design_");
+      if (!match) return await m.sendReply("_Give Me Text Man_");
+      await m.sendReply("_Creating Design🪄_");
       const logo = new Ephoto360API();
       const img = await logo.makingneon(match);
       return m.send(img, {
@@ -821,8 +821,8 @@ Module(
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-               newsletterJid: "120363295657486372@g.us",
-               newsletterName: "ᴍᴀᴋɪɴɢ ɴᴇᴏɴ",
+               newsletterJid: "120363321386877609@newsletter",
+               newsletterName: "ꜰᴀʀᴇɴᴏ ɴᴇᴏɴ",
             },
          },
       });
@@ -831,14 +831,14 @@ Module(
 
 Module(
    {
-      pattern: "ep29",
+      pattern: "light",
       fromMe: mode,
       desc: "Text Effect",
-      type: "eps",
+      type: "logo",
    },
    async (m, match) => {
-      if (!match) return await m.sendReply("_Give Me Text_");
-      await m.sendReply("_Creating Design_");
+      if (!match) return await m.sendReply("_Give Me Text Man_");
+      await m.sendReply("_Creating Design🪄_");
       const logo = new Ephoto360API();
       const img = await logo.texteffect(match);
       return m.send(img, {
@@ -846,8 +846,8 @@ Module(
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-               newsletterJid: "120363295657486372@g.us",
-               newsletterName: "ᴛᴇxᴛ ᴇꜰꜰᴇᴄᴛ",
+               newsletterJid: "120363321386877609@newsletter",
+               newsletterName: "ᴛᴇxᴛ ʟɪᴛᴇ",
             },
          },
       });
@@ -856,14 +856,14 @@ Module(
 
 Module(
    {
-      pattern: "ep30",
+      pattern: "galaxy2",
       fromMe: mode,
       desc: "Galaxy Style",
-      type: "eps",
+      type: "logo",
    },
    async (m, match) => {
-      if (!match) return await m.sendReply("_Give Me Text_");
-      await m.sendReply("_Creating Design_");
+      if (!match) return await m.sendReply("_Give Me Text Man_");
+      await m.sendReply("_Creating Design🪄_");
       const logo = new Ephoto360API();
       const img = await logo.galaxystyle(match);
       return m.send(img, {
@@ -871,8 +871,8 @@ Module(
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-               newsletterJid: "120363295657486372@g.us",
-               newsletterName: "ɢᴀlᴀxʏ ꜱᴛʏʟᴇ",
+               newsletterJid: "120363321386877609@newsletter",
+               newsletterName: "ɢᴀlᴀxʏ2 ꜱᴛʏʟᴇ",
             },
          },
       });
@@ -881,14 +881,14 @@ Module(
 
 Module(
    {
-      pattern: "ep31",
+      pattern: "pink",
       fromMe: mode,
       desc: "Blackpink Style",
-      type: "eps",
+      type: "logo",
    },
    async (m, match) => {
-      if (!match) return await m.sendReply("_Give Me Text_");
-      await m.sendReply("_Creating Design_");
+      if (!match) return await m.sendReply("_Give Me Text Man_");
+      await m.sendReply("_Creating Design🪄_");
       const logo = new Ephoto360API();
       const img = await logo.blackpinkstyle(match);
       return m.send(img, {
@@ -896,8 +896,8 @@ Module(
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-               newsletterJid: "120363295657486372@g.us",
-               newsletterName: "ʙʟᴀᴄᴋᴘɪɴᴋ ꜱᴛʏʟᴇ",
+               newsletterJid: "120363321386877609@newsletter",
+               newsletterName: "ᴘɪɴᴋ ꜱᴛʏʟᴇ",
             },
          },
       });
@@ -906,14 +906,14 @@ Module(
 
 Module(
    {
-      pattern: "ep32",
+      pattern: "mirror",
       fromMe: mode,
       desc: "Glowing Text",
-      type: "eps",
+      type: "logo",
    },
    async (m, match) => {
-      if (!match) return await m.sendReply("_Give Me Text_");
-      await m.sendReply("_Creating Design_");
+      if (!match) return await m.sendReply("_Give Me Text Man_");
+      await m.sendReply("_Creating Design🪄_");
       const logo = new Ephoto360API();
       const img = await logo.glowingtext(match);
       return m.send(img, {
@@ -921,8 +921,8 @@ Module(
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-               newsletterJid: "120363295657486372@g.us",
-               newsletterName: "ɢʟᴏᴡɪɴɢ ᴛᴇxᴛ",
+               newsletterJid: "120363321386877609@newsletter",
+               newsletterName: "ᴍɪʀʀᴏʀ ᴛᴇxᴛ",
             },
          },
       });
@@ -931,14 +931,14 @@ Module(
 
 Module(
    {
-      pattern: "ep33",
+      pattern: "neonlight",
       fromMe: mode,
       desc: "Advanced Glow",
-      type: "eps",
+      type: "logo",
    },
    async (m, match) => {
-      if (!match) return await m.sendReply("_Give Me Text_");
-      await m.sendReply("_Creating Design_");
+      if (!match) return await m.sendReply("_Give Me Text Man_");
+      await m.sendReply("_Creating Design🪄_");
       const logo = new Ephoto360API();
       const img = await logo.advancedglow(match);
       return m.send(img, {
@@ -946,8 +946,8 @@ Module(
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-               newsletterJid: "120363295657486372@g.us",
-               newsletterName: "ᴀᴅᴠᴀɴᴄᴇᴅ ɢʟᴏᴡ",
+               newsletterJid: "120363321386877609@newsletter",
+               newsletterName: "ɴᴇᴏɴʟɪɢʜᴛ",
             },
          },
       });
@@ -956,14 +956,14 @@ Module(
 
 Module(
    {
-      pattern: "ep34",
+      pattern: "gold",
       fromMe: mode,
       desc: "Glossy Silver",
-      type: "eps",
+      type: "logo",
    },
    async (m, match) => {
-      if (!match) return await m.sendReply("_Give Me Text_");
-      await m.sendReply("_Creating Design_");
+      if (!match) return await m.sendReply("_Give Me Text Man_");
+      await m.sendReply("_Creating Design🪄_");
       const logo = new Ephoto360API();
       const img = await logo.glossysilver(match);
       return m.send(img, {
@@ -971,8 +971,8 @@ Module(
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-               newsletterJid: "120363295657486372@g.us",
-               newsletterName: "ɢʟᴏssʏ ꜱɪʟᴠᴇʀ",
+               newsletterJid: "120363321386877609@newsletter",
+               newsletterName: "ɢᴏʟᴅ ꜱɪʟᴠᴇʀ",
             },
          },
       });
@@ -981,14 +981,14 @@ Module(
 
 Module(
    {
-      pattern: "ep35",
+      pattern: "shower",
       fromMe: mode,
       desc: "Writing Text",
-      type: "eps",
+      type: "logo",
    },
    async (m, match) => {
-      if (!match) return await m.sendReply("_Give Me Text_");
-      await m.sendReply("_Creating Design_");
+      if (!match) return await m.sendReply("_Give Me Text Man_");
+      await m.sendReply("_Creating Design🪄_");
       const logo = new Ephoto360API();
       const img = await logo.writetext(match);
       return m.send(img, {
@@ -996,8 +996,8 @@ Module(
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-               newsletterJid: "120363295657486372@g.us",
-               newsletterName: "ᴡʀɪᴛɪɴɢ ᴛᴇxᴛ",
+               newsletterJid: "120363321386877609@newsletter",
+               newsletterName: "Sʜᴏᴡᴇʀ ᴛᴇxᴛ",
             },
          },
       });
@@ -1006,14 +1006,14 @@ Module(
 
 Module(
    {
-      pattern: "ep36",
+      pattern: "logo5",
       fromMe: mode,
       desc: "Blackpink Logo",
-      type: "eps",
+      type: "logo",
    },
    async (m, match) => {
-      if (!match) return await m.sendReply("_Give Me Text_");
-      await m.sendReply("_Creating Design_");
+      if (!match) return await m.sendReply("_Give Me Text Man_");
+      await m.sendReply("_Creating Design🪄_");
       const logo = new Ephoto360API();
       const img = await logo.blackpinklogo(match);
       return m.send(img, {
@@ -1021,7 +1021,7 @@ Module(
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-               newsletterJid: "120363295657486372@g.us",
+               newsletterJid: "120363321386877609@newsletter",
                newsletterName: "ʙʟᴀᴄᴋᴘɪɴᴋ ʟᴏɢᴏ",
             },
          },
